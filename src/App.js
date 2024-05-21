@@ -15,8 +15,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn hey
         </a>
+        <form className="search">
+            <label>Search</label>
+            <input type="text" />
+          </form>
       </header>
     </div>
   );

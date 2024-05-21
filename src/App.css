@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.search label {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Hind', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: .2em;
+}
+
+.search input {
+  width: 100%;
+  font-size: 1em;
+  background: none;
+  padding: .8em 1em;
+  border: solid 3px #5F4B8B;
+  outline: none;
+  border-radius: .4em;
+}
+
+.search input:focus {
+  border: solid 3px #5e1dec;
+  box-shadow: 0 0 6px #5e1dec;
+}
